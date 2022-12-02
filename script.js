@@ -10,9 +10,9 @@ function gradientEle(){
     h33.textContent = body.style.background
 
     backh1.style.color = color2.value
-    backh2.style.color = color1.value
+    backh2.style.color = color1.value;
 }
 
-color1.addEventListener("input", gradientEle)
+color1.addEventListener("input", gradientEle);
 
 color2.addEventListener("input", gradientEle)
